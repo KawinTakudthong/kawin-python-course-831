@@ -23,7 +23,8 @@ def number_operations():
     for i in range(10):
         # Your code here
         pass
-        numbers[i] = int(input("Enter number [" + i + "]: "))
+        num = int(input(f"Enter number [{i+1}]: "))
+        numbers.append(num)
     
     # Display original list
     print(f"Original numbers: {numbers}")
