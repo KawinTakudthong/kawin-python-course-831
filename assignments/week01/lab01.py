@@ -15,7 +15,7 @@ email = input ("What is your email address? :")
 phone_number = input("What is your phone number? :")
 hobby = input ("What is your faborite hobby? :")
 
-print("== Yoyr profile ==")
+print("== Your profile ==")
 print("Full name: " + full_name)
 print("Age: ", age)
 print("Email: ", email)

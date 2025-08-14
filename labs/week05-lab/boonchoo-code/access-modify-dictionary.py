@@ -71,7 +71,7 @@ last_item = inventory.popitem()
 print(f"Last item removed: {last_item}")
 
 # Clear all items
-backup = inventory.copy()
-inventory.clear()
+backup = inventory.copy() #ย้าย data ไปอยู่ backup
+inventory.clear() # Clear the inventory
 print(f"After clear: {inventory}")
 print(f"Backup: {backup}")
