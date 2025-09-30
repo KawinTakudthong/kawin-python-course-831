@@ -47,3 +47,22 @@ Transformations:
 USE: len(), split(), count(), upper(), lower(), title(), slicing operations
 
 """
+
+#text = input("Enter text: ")
+text = "The Quick Brown Fox Jumps Over The Lazy Dog"
+
+print("\n=== TEXT ANALYSIS REPORT ===")
+print("Character Analysis:")
+print("- Total characters: %d (with spaces), %d (without spaces)" % (len(text), len(text.count(" ", ""))))
+
+x = text.count('a') + text.count('A') + text.count('e') + text.count('E') + text.count('i') + text.count('I') + text.count('o') + text.count('O') + text.count('u') + text.count('U')
+
+y = ""
+for char in text:
+    if char in['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'] :
+        y += char + ", "
+
+print("- Vowels: %d (%s)" % (vowels, vowelsString[0:-2]))
+print("- Consonants: %d" % (len(text) - x - text.count(" ")))
+
+print(len(text.split))
